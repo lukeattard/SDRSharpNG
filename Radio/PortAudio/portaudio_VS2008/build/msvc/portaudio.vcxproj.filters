@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{864f92f7-4662-4114-bacd-9ead443b9352}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{f23748c9-3339-4123-983f-0a271b45ad27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi">
+      <UniqueIdentifier>{a34e0c4d-a029-41ff-a835-6b9da0e8c1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\ASIO">
+      <UniqueIdentifier>{792b14b5-d7ce-4e4c-9136-3106016551c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\ASIO\ASIOSDK">
+      <UniqueIdentifier>{faa736ed-093c-4a28-a5e8-513c5f815eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\ASIO\ASIOSDK\COMMON">
+      <UniqueIdentifier>{ab69e6a3-7ba8-48e4-9fca-97d535b0b2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\ASIO\ASIOSDK\HOST">
+      <UniqueIdentifier>{ddde1f43-2b52-4f3c-8a70-022197df3944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\ASIO\ASIOSDK\HOST\PC">
+      <UniqueIdentifier>{d4bc0b8b-b996-4414-9b5f-bc5791638fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\dsound">
+      <UniqueIdentifier>{b978b60b-7ee8-4ecb-889c-431a9648b2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\wmme">
+      <UniqueIdentifier>{278f01fa-2faf-476e-934a-b753cbc2d5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\wasapi">
+      <UniqueIdentifier>{450b94d2-4f6c-42c9-86aa-8d50ef399ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\wdmks">
+      <UniqueIdentifier>{be1e6c9e-fc71-4712-9d08-ca1a845cde95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\os">
+      <UniqueIdentifier>{94233074-edd2-4d7d-9963-206635ad895b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\os\win">
+      <UniqueIdentifier>{0c96a65f-30bb-42cb-8ae6-e47235034b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{287379b1-0be5-4715-84a5-6c0ffb703e0f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{29a3f11d-0c4a-4284-9ff8-73f3dbefab55}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{cd92e932-48a3-4c69-b7d9-dd00f8f172f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi">
+      <UniqueIdentifier>{f9701e7d-725a-4ff5-a2a6-927106b9b602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\ASIO">
+      <UniqueIdentifier>{bbb8e83f-0bb9-4315-aa03-9b8c496c1faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\ASIO\ASIOSDK">
+      <UniqueIdentifier>{9b7fa7f8-8f8f-47e7-be5d-7877f4eae7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\ASIO\ASIOSDK\COMMON">
+      <UniqueIdentifier>{0b5e7e6b-d801-47e2-be01-f2fd88a92e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\ASIO\ASIOSDK\HOST">
+      <UniqueIdentifier>{3ca95842-07aa-4183-8727-47323e1a8ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\ASIO\ASIOSDK\HOST\PC">
+      <UniqueIdentifier>{7bc083d9-6f72-4efd-8c7a-72dc21fcdebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\dsound">
+      <UniqueIdentifier>{f77b3e33-6d51-476c-8f7a-55e3e567c6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\wdmks">
+      <UniqueIdentifier>{9c77114a-e381-403d-8cbd-ccf2bf9235bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\wmme">
+      <UniqueIdentifier>{14bb852e-1326-4f79-b0e5-6188f95e9b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hostapi\wasapi">
+      <UniqueIdentifier>{7f25b07d-f73c-4898-a724-1eaf0218b40d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\pa_allocation.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_converters.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_cpuload.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_debugprint.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_dither.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_front.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_process.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_ringbuffer.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_skeleton.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_stream.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\pa_trace.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\iasiothiscallresolver.cpp">
+      <Filter>Source Files\hostapi\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\pa_asio.cpp">
+      <Filter>Source Files\hostapi\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\common\asio.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\common\combase.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\common\debugmessage.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\common\register.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\host\ASIOConvertSamples.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\host\asiodrivers.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\asio\asiosdk\host\pc\asiolist.cpp">
+      <Filter>Source Files\hostapi\ASIO\ASIOSDK\HOST\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds.c">
+      <Filter>Source Files\hostapi\dsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds_dynlink.c">
+      <Filter>Source Files\hostapi\dsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\wmme\pa_win_wmme.c">
+      <Filter>Source Files\hostapi\wmme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\wasapi\pa_win_wasapi.c">
+      <Filter>Source Files\hostapi\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hostapi\wdmks\pa_win_wdmks.c">
+      <Filter>Source Files\hostapi\wdmks</Filter>
+    </ClCompile>
+    <ClCompile Include="PA19.cpp">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_hostapis.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_util.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_waveformat.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_win_wdmks_utils.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os\win\pa_x86_plain_converters.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="portaudio.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\common\pa_allocation.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_converters.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_cpuload.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_debugprint.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_dither.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_endianness.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_hostapi.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_memorybarrier.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_process.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_ringbuffer.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_stream.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_trace.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_types.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\pa_util.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\portaudio.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\iasiothiscallresolver.h">
+      <Filter>Header Files\hostapi\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\common\asio.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\common\asiodrvr.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\common\asiosys.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\common\combase.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\common\iasiodrv.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\common\wxdebug.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\host\ASIOConvertSamples.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\HOST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\host\asiodrivers.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\HOST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\host\ginclude.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\HOST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\asio\asiosdk\host\pc\asiolist.h">
+      <Filter>Header Files\hostapi\ASIO\ASIOSDK\HOST\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hostapi\dsound\pa_win_ds_dynlink.h">
+      <Filter>Header Files\hostapi\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\os\win\pa_win_wdmks_utils.h">
+      <Filter>Header Files\hostapi\wdmks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pa_win_wasapi.h">
+      <Filter>Header Files\hostapi\wasapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
